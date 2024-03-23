@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Login</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    
+  <div class="login-container">
+    <div class="wrapper">
+      <!-- Background -->
+      <div class="bg">
+        <div class="img-bg" style="background-image:url('./assets/img/01.png')"></div>
+      </div>
+      <!-- Form Container -->
+      <div class="form-container">
+        <div class="form-wrapper">
+          <div class="title-container">
+            <img src="./assets/img/👋.png" alt="Icon">
+            <h3 class="title">Welcome Back !</h3>
+          </div>
+          <p class="desc">
+            Sign in to access your travel plans, 
+            and explore new destination
+          </p>
+          <!-- Form -->
+          <form action="/" method="post">
+            <div class="form-input">
+              <input type="email" placeholder="Email" name="email" required>
+            </div>
+            <div class="form-input">
+              <input type="password" placeholder="Password" name="password" required>
+            </div>
+            <!-- Options -->
+            <div class="options">
+              <label class="option"> Remember me
+                <input type="checkbox" checked="checked" name="remember">
+                <span class="checkmark"></span>
+              </label>
+              <div class="option">
+                <a href="#" class="fg-password">Forget Password ?</a>
+              </div>
+            </div>
+            <!-- / End Options -->
+            <button class="btn-login mt-1" type="submit">Login</button>
+            <p class="text-center color-gray mt-2">or, login</p>
+            <!-- Social Button -->
+            <div class="btns mt-2">
+              <div class="btn-social">
+                <div class="icon">
+                  <img src="./assets/img/google-icon.png" alt="Google Icon">
+                </div>
+                <div class="text">
+                  <span>Google</span>
+                </div>
+              </div>
+              <div class="btn-social">
+                <div class="icon">
+                  <img src="./assets/img/facebook-icon.png" alt="Facebook Icon">
+                </div>
+                <div class="text">
+                  <span>Facebook</span>
+                </div>
+              </div>
+            </div>
+            <!-- / End Social Button -->
+            <p class="text-center color-gray mt-2">
+              Don't have account ? <a href="#" class="color-p">Sign Up</a>
+            </p>
+          </form>
+          <!-- / End Form -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
